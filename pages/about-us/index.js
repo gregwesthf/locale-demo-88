@@ -2,7 +2,8 @@ export const getStaticProps = ({locale}) => {
     return {
         props: {
             locale
-        }
+        },
+        revalidate: 100
     }
 }
 
