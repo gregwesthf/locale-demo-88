@@ -10,7 +10,7 @@ const nextConfig = {
                 http: true
             },
             {
-                domain: 'local-ie:3000',
+                domain: 'locale-demo-88.netlify.app',
                 defaultLocale: 'en-IE',
                 http: true
             }
