@@ -18,7 +18,7 @@ export const getStaticProps = ({locale, params}) => {
             date: new Date().toUTCString()
         },
         revalidate: 30
-    }∆
+    }
 }
 
 function AboutUsDetail ({locale, slug, date}) {    
