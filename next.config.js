@@ -6,13 +6,11 @@ const nextConfig = {
         domains: [
             {
                 domain: 'localhost:3000',
-                defaultLocale: 'en',
-                http: true
+                defaultLocale: 'en'
             },
             {
                 domain: 'locale-demo-88.netlify.app',
-                defaultLocale: 'en-IE',
-                http: true
+                defaultLocale: 'en-IE'
             }
         ]
     }
